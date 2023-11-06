@@ -32,6 +32,8 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
   )
 }
 
+StaticPropsDetail.requireAuth = true
+
 export default StaticPropsDetail
 
 export const getStaticPaths: GetStaticPaths = async () => {

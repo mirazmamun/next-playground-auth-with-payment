@@ -11,4 +11,6 @@ const AboutPage = () => (
   </Layout>
 )
 
+AboutPage.requireAuth = false
+
 export default AboutPage

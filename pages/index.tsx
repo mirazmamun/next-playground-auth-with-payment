@@ -10,4 +10,6 @@ const IndexPage = () => (
   </Layout>
 )
 
+IndexPage.requireAuth = false
+
 export default IndexPage
